@@ -1,1 +1,1 @@
-Example of building a framework on top of Vite + vite-plugin-ssr
+Example of a framework built on top of Vite + vite-plugin-ssr

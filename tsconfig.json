@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Output
+    "outDir": "./dist/",
+    "target": "ES2017",
+    "module": "CommonJS",
+    // Code
+    "strict": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react",
+    // Dependencies
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    // Source Maps
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "stripInternal": true
+  }
+}
