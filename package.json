@@ -2,6 +2,20 @@
   "name": "@brillout/vite-framework",
   "version": "0.0.1",
   "description": "Example of a framework built on top of Vite + vite-plugin-ssr",
+  "exports": {
+    ".": {
+      "node": "./dist/index.js",
+      "import": "./dist/index.js"
+    },
+    "./_default.page.client": {
+      "node": "./dist/_default.page.client.js",
+      "import": "./dist/_default.page.client.js"
+    },
+    "./_default.page.server": {
+      "node": "./dist/_default.page.server.js",
+      "import": "./dist/_default.page.server.js"
+    }
+  },
   "devDependencies": {
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.19",
