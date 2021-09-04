@@ -12,7 +12,7 @@ The user can then simply use the framework's renderer:
  - [/user-code/renderer/_default.page.client.tsx](/user-code/renderer/_default.page.client.tsx)
  - [/user-code/renderer/_default.page.server.tsx](/user-code/renderer/_default.page.server.tsx)
 
-The framework offers settings to allow the user to define thingsl like the page wrapper, the head meta tags, etc.:
+The framework offers settings to allow the user to define things like the page wrapper, the head meta tags, etc.:
  - [/user-code/renderer/set.ts](/user-code/renderer/set.ts)
 
 Also note that the framework implements a [`<Link>`](/vite-framework/Link.tsx) component that automatically sets the `is-active` CSS class.
