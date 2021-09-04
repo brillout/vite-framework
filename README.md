@@ -2,7 +2,7 @@ Example of a framework built on top of Vite + vite-plugin-ssr.
 
 Framework code: [/vite-framework/](/vite-framework/).
 
-Project example using the framework: [/user-code/](/user-code/).
+Example of using the framework: [/user-code/](/user-code/).
 
 The renderer is implemented by the framework:
  - [/vite-framework/_default.page.client.tsx](/vite-framework/_default.page.client.tsx)
