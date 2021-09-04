@@ -9,7 +9,7 @@
     },
     "./_default.page.client": {
       "node": "./dist/_default.page.client.js",
-      "import": "./_default.page.client.ts"
+      "import": "./_default.page.client.tsx"
     },
     "./_default.page.server": {
       "node": "./_default.page.server",
