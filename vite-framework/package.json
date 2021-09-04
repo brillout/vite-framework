@@ -1,5 +1,5 @@
 {
-  "name": "@brillout/vite-framework",
+  "name": "vite-framework",
   "version": "0.0.1",
   "description": "Example of a framework built on top of Vite + vite-plugin-ssr",
   "exports": {

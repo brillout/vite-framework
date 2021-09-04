@@ -1,4 +1,4 @@
-import { set } from "@brillout/vite-framework";
+import { set } from "vite-framework";
 import { PageWrapper } from "./PageWrapper";
 import logoUrl from './logo.svg'
 

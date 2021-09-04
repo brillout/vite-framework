@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./PageWrapper.css";
-import { Link } from "@brillout/vite-framework/Link";
+import { Link } from "vite-framework/Link";
 
 export { PageWrapper };
 

@@ -20,5 +20,7 @@
     "typescript": "^4.4.2",
     "vite": "^2.5.2",
     "vite-plugin-ssr": "^0.2.13"
-  }
+  },
+  "name": "user-code",
+  "version": "0.0.1"
 }
