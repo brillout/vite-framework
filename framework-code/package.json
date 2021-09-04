@@ -1,0 +1,52 @@
+{
+  "name": "@brillout/vite-framework",
+  "version": "0.0.1",
+  "description": "Example of a framework built on top of Vite + vite-plugin-ssr",
+  "exports": {
+    ".": {
+      "node": "./index",
+      "import": "./index.ts"
+    },
+    "./_default.page.client": {
+      "node": "./dist/_default.page.client.js",
+      "import": "./_default.page.client.ts"
+    },
+    "./_default.page.server": {
+      "node": "./_default.page.server",
+      "import": "./_default.page.server.tsx"
+    },
+    "./Link": {
+      "node": "./Link",
+      "import": "./Link"
+    }
+  },
+  "//": {
+      "node": "./dist/index.js",
+      "node": "./_default.page.server.tsx",
+      "euwh": 1
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.2",
+    "vite": "^2.5.3",
+    "vite-plugin-ssr": "^0.2.13"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "vite": "^2.2.3",
+    "vite-plugin-ssr": "^0.2.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist/ && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": "github:brillout/vite-framework",
+  "publishConfig": {
+    "access": "public"
+  }
+}
