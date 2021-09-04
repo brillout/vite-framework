@@ -32,8 +32,8 @@ useClientRouter({
 });
 
 function onTransitionStart() {
-  document.querySelector("#page-content")!.classList.add("page-transition");
+  document.querySelector("body")!.classList.add("page-transition");
 }
 function onTransitionEnd() {
-  document.querySelector("#page-content")!.classList.remove("page-transition");
+  document.querySelector("body")!.classList.remove("page-transition");
 }

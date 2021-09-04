@@ -17,3 +17,11 @@ a {
 .navitem.is-active {
   background-color: #eee;
 }
+
+/* Client-side Routing transition animation */
+#page-content {
+  transition: opacity 0.1s ease-in;
+}
+body.page-transition #page-content {
+  opacity: 0;
+}

@@ -4,26 +4,17 @@
   "description": "Example of a framework built on top of Vite + vite-plugin-ssr",
   "exports": {
     ".": {
-      "node": "./index",
       "import": "./index.ts"
     },
     "./_default.page.client": {
-      "node": "./dist/_default.page.client.js",
       "import": "./_default.page.client.tsx"
     },
     "./_default.page.server": {
-      "node": "./_default.page.server",
       "import": "./_default.page.server.tsx"
     },
     "./Link": {
-      "node": "./Link",
       "import": "./Link"
     }
-  },
-  "//": {
-      "node": "./dist/index.js",
-      "node": "./_default.page.server.tsx",
-      "euwh": 1
   },
   "devDependencies": {
     "@types/node": "^15.6.1",
