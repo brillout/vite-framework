@@ -3,5 +3,8 @@
   "workspaces": [
     "vite-framework/",
     "user-code/"
-  ]
+  ],
+  "scripts": {
+    "dev": "cd user-code/ && yarn dev"
+  }
 }
