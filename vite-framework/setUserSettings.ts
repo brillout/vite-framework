@@ -16,7 +16,7 @@ let _userSettings: UserSettings | undefined;
 function getUserSettings(): UserSettings {
   assertUsage(
     _userSettings,
-    "You need to call `set()` (`import { set } from '@brillout/vite-framework`)."
+    "You need to call `set()` (`import { set } from 'vite-framework`)."
   );
   return _userSettings;
 }
