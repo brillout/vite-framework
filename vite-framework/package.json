@@ -1,7 +1,6 @@
 {
   "name": "vite-framework",
   "version": "0.0.1",
-  "description": "Example of a framework built on top of Vite + vite-plugin-ssr",
   "exports": {
     ".": {
       "import": "./index.ts"
@@ -31,13 +30,5 @@
     "react-dom": "*",
     "vite": "^2.2.3",
     "vite-plugin-ssr": "^0.2.0"
-  },
-  "scripts": {
-    "build": "rm -rf dist/ && tsc",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": "github:brillout/vite-framework",
-  "publishConfig": {
-    "access": "public"
   }
 }
