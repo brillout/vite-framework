@@ -14,3 +14,16 @@ The user can then simply use the framework's renderer:
 
 The framework offers settings to allow the user to define thingsl like the page wrapper, the head meta tags, etc.:
  - [/user-code/renderer/set.ts](/user-code/renderer/set.ts)
+
+Also note that the framework implements a [`<Link>`](/vite-framework/Link.tsx) component that automatically sets the `is-active` CSS class.
+
+The same thing could be done for the server code.
+
+To run the example project:
+
+```bash
+git clone git@github.com:brillout/vite-framework
+cd vite-framework/
+yarn
+yarn dev
+```
